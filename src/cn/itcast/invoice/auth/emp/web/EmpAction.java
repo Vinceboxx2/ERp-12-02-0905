@@ -18,27 +18,27 @@ import cn.itcast.invoice.util.base.BaseAction;
  */
 public class EmpAction extends BaseAction{
 	//1.getUm() Ã§â€�Â¨
-	//2.Ã¥Â°ï¿½Ã¨Â¯â€¢Ã¦â‚¬Â§Ã§Å¡â€žÃ¤Â½Â¿Ã§â€�Â¨publicÃ¦ï¿½Æ’Ã©â„¢ï¿½Ã¨Â®Â¿Ã©â€”Â® Ã§â€�Â¨
-	//3.setUm() Ã¦Å“â€°
-	//3.1 Ã¥Å“Â¨Ã¦Â¯ï¿½Ã¦Â¬Â¡Ã¨Â°Æ’Ã§â€�Â¨Ã¥Â¯Â¹Ã¨Â±Â¡Ã¦â€”Â¶Ã¯Â¼Å’Ã¦â€°Â§Ã¨Â¡Å’setÃ¦â€“Â¹Ã¦Â³â€¢Ã¯Â¼Å’Ã¥Ë†â€ºÃ¥Â»ÂºÃ¤Â¸â‚¬Ã¤Â¸ÂªÃ¦â€“Â°Ã¥Â¯Â¹Ã¨Â±Â¡
+	//2.Ã¥Â°ï¿dfg½dfgÃ¨Â¯â€¢Ã¦â‚¬Â§Ã§Å¡â€žÃ¤Â½Â¿Ã§â€�Â¨publicÃ¦ï¿½Æ’Ã©â„¢ï¿½Ã¨Â®Â¿Ã©â€”Â® Ã§â€�Â¨
+	//3.setUm()dfg Ã¦Å“â€°
+	//3.1 Ã¥Å“dgÂ¨Ã¦Â¯ï¿½Ã¦Â¬Â¡Ã¨Â°Æ’Ã§â€�Â¨Ã¥Â¯Â¹Ã¨Â±Â¡Ã¦â€”Â¶Ã¯Â¼Å’Ã¦â€°Â§Ã¨Â¡Å’setÃ¦â€“Â¹Ã¦Â³â€¢Ã¯Â¼Å’Ã¥Ë†â€ºÃ¥Â»ÂºÃ¤Â¸â‚¬Ã¤Â¸ÂªÃ¦â€“Â°Ã¥Â¯Â¹Ã¨Â±Â¡
 	/*
-	localhost:8080/ERP/emp_fn.action?um.uuid=1&um.name=2&um.age=3
-	um.uuid
-	um.get?  um.public? new UserModel() setUm(new...)  setUuid(1);
-	um.get?	 um.public? new UserModel() setUm(new...)  setName(2);
+	localhost:dfg8080/ERP/emp_fn.action?um.uuid=1&um.name=2&um.age=3
+	um.udguid
+	um.gfdet?  um.public? new UserModel() setUm(new...)  setUuid(1);
+	um.get?	 um.pugdblic? new UserModel() setUm(new...)  setName(2);
 	um.get?	 um.public? new UserModel() setUm(new...)  setAge(3);
-	age name uuid 
+	age name ugfduid 
 	*/
 	/*
 	private UserModel um = new UserModel();
-	
+	sdfgdsf
 	public void setUm(UserModel um) {
 		System.out.println("set.........................");
 		this.um = um;
 	}
-
+gsgf
 	public String fn(){
-		System.out.println(um.getUuid());
+		Systemsfgs.out.println(um.getUuid());
 		System.out.println(um.getName());
 		System.out.println(um.getAge());
 		return "fn";
@@ -46,11 +46,11 @@ public class EmpAction extends BaseAction{
 	*/
 	
 	/**
-	 * public field
+	 * publicdg field
 	 */
 	public EmpModel em = new EmpModel();
 	/**
-	 * public field
+	 * public fiedfgld
 	 */
 	public EmpQueryModel eqm = new EmpQueryModel();
 
@@ -60,21 +60,21 @@ public class EmpAction extends BaseAction{
 	
 	
 	/**
-	 * public field
+	 * public dfield
 	 */
 	public void setRoleEbi(RoleEbi roleEbi) {
 		this.roleEbi = roleEbi;
 	}
 
 	/**
-	 * public field
+	 * public field  
 	 */
 	public void setDepEbi(DepEbi depEbi) {
 		this.depEbi = depEbi;
 	}
 
-	/**
-	 * public field
+	/** 
+	 * public field 
 	 */
 	public void setEmpEbi(EmpEbi empEbi) {
 		this.empEbi = empEbi;
@@ -82,12 +82,12 @@ public class EmpAction extends BaseAction{
 
 	
 	
-	//Ã¨Â·Â³Ã¨Â½Â¬Ã¥Ë†Â°Ã¥Ë†â€”Ã¨Â¡Â¨Ã©Â¡ÂµÃ©ï¿½Â¢
-	/**
-	 * public field
+	//Ã¨Â·Â³Ã¨Â½Â¬Ã¥Ë†Â°Ã¥Ë†âgfdh€”Ã¨Â¡Â¨Ã©Â¡ÂµÃ©ï¿½Â¢
+	/**dg
+	 * public field 
 	 */
 	public String list(){
-		//Ã¥Å Â Ã¨Â½Â½Ã©Æ’Â¨Ã©â€”Â¨Ã¥â€¦Â¨Ã¤Â¿Â¡Ã¦ï¿½Â¯
+		//Ã¥Å Â Ã¨Â½Â½Ã©Æ’Â¨Ãhgd©â€”Â¨Ã¥â€¦Â¨Ã¤Â¿Â¡Ã¦ï¿½Â¯
 		List<DepModel> depList = depEbi.getAll();
 		put("depList",depList);
 		setDataTotal(empEbi.getCount(eqm));
@@ -97,12 +97,12 @@ public class EmpAction extends BaseAction{
 	}
 
 	/**
-	 * public field
+	 * public field 
 	 */
 	public Long[] roleUuids;
-	//Ã¤Â¿ï¿½Ã¥Â­Ëœ/Ã¤Â¿Â®Ã¦â€�Â¹
+	//Ã¤Â¿ï¿½Ã¥Â­Ëhfœ/Ã¤Â¿Â®Ã¦â€�Â¹
 	/**
-	 * public field
+	 * public field  
 	 */
 	public String save(){
 		if(em.getUuid()== null){
@@ -113,20 +113,20 @@ public class EmpAction extends BaseAction{
 		return TO_LIST;
 	}
 
-	//Ã¨Â·Â³Ã¨Â½Â¬Ã¥Ë†Â°Ã¦Â·Â»Ã¥Å Â /Ã¤Â¿Â®Ã¦â€�Â¹Ã©Â¡ÂµÃ©ï¿½Â¢
+	//Ã¨Â·Â³Ã¨Â½Â¬Ã¥Ë†Â°Ã¦Â·Âdfgh»Ã¥Å Â /Ã¤Â¿Â®Ã¦â€�Â¹Ã©Â¡ÂµÃ©ï¿½Â¢
 	/**
-	 * public field
+	 * public field  
 	 */
 	public String input(){
-		//Ã¥Â°â€ Ã©Æ’Â¨Ã©â€”Â¨Ã¥Ë†â€”Ã¨Â¡Â¨Ã¦â€¢Â°Ã¦ï¿½Â®
+		//Ã¥Â°â€ Ã©Æ’Â¨Ã©â€”hgfd¨Ã¥Ë†â€”Ã¨Â¡Â¨Ã¦â€¢Â°Ã¦ï¿½Â®
 		List<DepModel> depList = depEbi.getAll();
 		put("depList",depList);
-		//Ã¥Å Â Ã¨Â½Â½Ã¨Â§â€™Ã¨â€°Â²Ã¦â€¢Â°Ã¦ï¿½Â®
+		//Ã¥Å Â Ã¨Â½Â½Ã¨Â§âhgfd€™Ã¨â€°Â²Ã¦â€¢Â°Ã¦ï¿½Â®
 		List<RoleModel> roleList = roleEbi.getAll();
 		put("roleList",roleList);
 		if(em.getUuid()!=null){
 			em = empEbi.get(em.getUuid());
-			//Ã©â€ºâ€ Ã¥ï¿½Ë†->Ã¦â€¢Â°Ã§Â»â€ž
+			//Ã©â€ºâ€ Ã¥ï¿½Ë†-jhgf>Ã¦â€¢Â°Ã§Â»â€ž
 			roleUuids = new Long[em.getRoles().size()];
 			int i = 0;
 			for(RoleModel rm:em.getRoles()){
@@ -136,18 +136,18 @@ public class EmpAction extends BaseAction{
 		return INPUT;
 	}
 
-	//Ã¥Ë†Â Ã©â„¢Â¤
+	//Ã¥Ë†Â Ã©â„¢Â  ¤
 	/**
-	 * public field
+	 * public fielddf
 	 */
 	public String delete(){
 		empEbi.delete(em);
 		return TO_LIST;
 	}
 
-	//Ã§â„¢Â»Ã©â„¢â€ Ã¯Â¼Å¡Ã¤Â½Â¿Ã§â€�Â¨Ã§â€�Â¨Ã¦Ë†Â·Ã¤Â¼Â Ã©â‚¬â€™Ã§Å¡â€žÃ§â€�Â¨Ã¦Ë†Â·Ã¥ï¿½ï¿½Ã¥Â¯â€ Ã§Â ï¿½Ã¨Â¿â€ºÃ¨Â¡Å’Ã§â„¢Â»Ã©â„¢â€ 
+	//Ã§â„¢Â»Ã©â„¢â€ Ã¯Â¼Å¡ hfdÃ¤Â½Â¿Ã§â€�Â¨Ã§â€�Â¨Ã¦Ë†Â·Ã¤Â¼Â Ã©â‚¬â€™Ã§Å¡â€žÃ§â€�Â¨Ã¦Ë†Â·Ã¥ï¿½ï¿½Ã¥Â¯â€ Ã§Â ï¿½Ã¨Â¿â€ºÃ¨Â¡Å’Ã§â„¢Â»Ã©â„¢â€ 
 	/**
-	 * public field
+	 * public field 
 	 */
 	public String login(){
 		HttpServletRequest request = getRequest();
@@ -161,48 +161,48 @@ public class EmpAction extends BaseAction{
 		if(loginIp == null || loginIp.length() == 0 || "unknown".equalsIgnoreCase(loginIp)) { 
 			loginIp = request.getRemoteAddr(); 
 		}
-		//Ã¤Â½Â¿Ã§â€�Â¨Ã§â€�Â¨Ã¦Ë†Â·Ã¥ï¿½ï¿½Ã¥Â¯â€ Ã§Â ï¿½Ã¥Ë†Â°Ã¦â€¢Â°Ã¦ï¿½Â®Ã¥Âºâ€œÃ¨Â¿â€ºÃ¨Â¡Å’Ã¦Â Â¡Ã©ÂªÅ’Ã¦Å¸Â¥Ã¨Â¯Â¢
+		//Ã¤Â½Â¿Ã§â€�Â¨Ã§â€�Â¨Ã¦Ë†Â·Ã¥ï¿½ï¿½Ãdgh¥Â¯â€ Ã§Â ï¿½Ã¥Ë†Â°Ã¦â€¢Â°Ã¦ï¿½Â®Ã¥Âºâ€œÃ¨Â¿â€ºÃ¨Â¡Å’Ã¦Â Â¡Ã©ÂªÅ’Ã¦Å¸Â¥Ã¨Â¯Â¢
 		EmpModel loginEm = empEbi.login(em.getUserName(),em.getPwd(),loginIp);
-		//Ã¥Ë†Â¤Ã¦â€“Â­Ã¦ËœÂ¯Ã¥ï¿½Â¦Ã§â„¢Â»Ã©â„¢â€ Ã¦Ë†ï¿½Ã¥Å Å¸
+		//Ã¥Ë†Â¤Ã¦â€“Â­Ã¦ËœÂ¯Ã¥ï¿½Â¦Ã§âfgh„¢Â»Ã©â„¢â€ Ã¦Ë†ï¿½Ã¥Å Å¸
 		if(loginEm == null){
-			//Ã¥Â¦â€šÃ¦Å¾Å“Ã¥Å’Â¹Ã©â€¦ï¿½Ã¥Â¤Â±Ã¨Â´Â¥
+			//Ã¥Â¦â€šÃ¦Å¾Å“Ã¥Å’Â¹Ã©â€fgh¦ï¿½Ã¥Â¤Â±Ã¨Â´Â¥
 			//Ã¨Â·Â³Ã¨Â½Â¬Ã¥Ë†Â°Ã§â„¢Â»Ã©â„¢â€ Ã©Â¡Âµ
 			return "loginFail";
 		}else{
-			//Ã¥Â¦â€šÃ¦Å¾Å“Ã¥Å’Â¹Ã©â€¦ï¿½Ã¦Ë†ï¿½Ã¥Å Å¸
-			//Ã¥Â°â€ Ã§â„¢Â»Ã©â„¢â€ Ã§Å¡â€žÃ¤Â¿Â¡Ã¦ï¿½Â¯Ã¦â€�Â¾Ã¥â€¦Â¥Session
+			//Ã¥Â¦â€šÃ¦Å¾Å“Ã¥Å’Â¹Ã©âfgh€¦ï¿½Ã¦Ë†ï¿½Ã¥Å Å¸
+			//Ã¥Â°â€ Ã§â„¢Â»Ã©â„¢â€ dhdfÃ§Å¡â€žÃ¤Â¿Â¡Ã¦ï¿½Â¯Ã¦â€�Â¾Ã¥â€¦Â¥Session
 			putSession("loginEm", loginEm);
-			//Ã¨Â·Â³Ã¨Â½Â¬Ã¥Ë†Â°Ã¤Â¸Â»Ã©Â¡Âµ
+			//Ã¨Â·Â³Ã¨Â½Â¬Ã¥Ë†Â°Ã¤Âjfh¸Â»Ã©Â¡Âµ
 			return "loginSuccess";
 		}
 	}
 	
-	//Ã§â„¢Â»Ã¥â€¡Âº/Ã¦Â³Â¨Ã©â€�â‚¬
+	//Ã§â„¢Â»Ã¥â€¡Âº/Ã¦Â³Â¨jhgÃ©â€�â‚¬
 	/**
 	 * public field
 	 */
 	public String logout(){
-		//Ã¥Â°â€ sessionÃ¤Â¸Â­Ã§Å¡â€žÃ¦â€¢Â°Ã¦ï¿½Â®Ã¦Â¸â€¦Ã©â„¢Â¤
+		//Ã¥Â°â€ sessionÃ¤jhgÂ¸Â­Ã§Å¡â€žÃ¦â€¢Â°Ã¦ï¿½Â®Ã¦Â¸â€¦Ã©â„¢Â¤
 		putSession("loginEm", null);
-		//Ã¨Â·Â³Ã¨Â½Â¬Ã¥Ë†Â°Ã§â„¢Â»Ã©â„¢â€ Ã©Â¡ÂµÃ©ï¿½Â¢
+		//Ã¨Â·Â³Ã¨Â½Â¬Ã¥Ë†Â°Ã§â„¢Â»fgjhÃ©â„¢â€ Ã©Â¡ÂµÃ©ï¿½Â¢
 		return "loginFail";
 	}
 	
-	//Ã¤Â¿Â®Ã¦â€�Â¹Ã¥Â¯â€ Ã§Â ï¿½
+	//Ã¤Â¿Â®Ã¦â€�Â¹Ã¥Â¯â€ jhgfÃ§Â ï¿½
 	/**
 	 * public field
 	 */
 	public String changePwd(){
-		//old: em.pwd
-		//new: request.getParameter();
+		//old: em.pjhgwd
+		//new: requeghjst.getParameter();
 		String oldPwd = em.getPwd();
 		String newPwd = getRequest().getParameter("newPwd");
 		boolean flag = empEbi.changePwd(getLogin().getUserName(),oldPwd,newPwd);
 		if(flag){
-			//Ã¤Â¿Â®Ã¦â€�Â¹Ã¦Ë†ï¿½Ã¥Å Å¸
+			//Ã¤Â¿Â®Ã¦â€�Â¹jhgÃ¦Ë†ï¿½Ã¥Å Å¸
 			return logout();
 		}else{
-			//Ã¤Â¿Â®Ã¦â€�Â¹Ã¥Â¤Â±Ã¨Â´Â¥
+			//Ã¤Â¿Â®Ã¦â€�Â¹Ãgjh¥Â¤Â±Ã¨Â´Â¥
 			return "hehe";
 		}
 	}
