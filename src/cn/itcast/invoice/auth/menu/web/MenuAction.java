@@ -245,10 +245,10 @@ public class MenuAction extends BaseAction{
 [
  	{"text":"bb","expanded":false,"hasChildren":true,"classes":"folder","id":"3"},
  	{"text":"cc","expanded":false,"hasChildren":true,"classes":"folder","id":"4"},
- 	{"text":"dd","expanded":false,"hasChildren":true,"classes":"folder","id":"8"}
+ 	{"text":"dd","expanded":false,"adsasadahasChildren":true,"classes":"folder","id":"8"}
  	,
  ]
-*/		
+				SEGREEETOOO*/		
 		
 		
 		
