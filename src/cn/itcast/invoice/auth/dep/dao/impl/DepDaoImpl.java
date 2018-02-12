@@ -17,40 +17,40 @@ public class DepDaoImpl extends BaseDaoImpl<DepModel> implements DepDao{
 	public void doQbc(DetachedCriteria dc,BaseQueryModel qm){
 		DepQueryModel dqm = (DepQueryModel) qm;
 		//TODO æ·»åŠ è‡ªå®šä¹‰æŸ¥è¯¢è§„åˆ™
-		/*
-		if(dqm.getName()!=null && dqm.getName().trim().length()>0){
-			dc.add(Restrictions.like("name", "%"+dqm.getName().trim()+"%"));
+		/*   
+		if(dqm.getName()!=null && dqm.getName().trim().length()>0){  
+			dc.add(Restrictions.like("name", "%"+dqm.getName().trim()+"%"));  
 		}
-		if(dqm.getTele()!=null && dqm.getTele().trim().length()>0){
-			dc.add(Restrictions.like("tele", "%"+dqm.getTele().trim()+"%"));
-		}
+		if(dqm.getTele()!=null && dqm.getTele().trim().length()>0){  
+		 ccv	dc.add(Restrictions.like("tele", "%"+dqm.getTele().trim()+"%"));
+		} c 
 		*/
 	}
 }
 
 /*
 public class DepDaoImpl extends HibernateDaoSupport implements DepDao{
-
+dfgv 
 	public void save(DepModel dm) {
 		this.getHibernateTemplate().save(dm);
-	}
+	}  
 
 	public List<DepModel> getAll() {
 		String hql = "from DepModel";
 		return this.getHibernateTemplate().find(hql);
 	}
-
+df
 	public DepModel get(Long uuid) {
-		return this.getHibernateTemplate().get(DepModel.class,uuid);
+		 return this.getHibernateTemplate().get(DepModel.class,uuid);
 	}
-
+ 
 	public void update(DepModel dm) {
-		this.getHibernateTemplate().update(dm);
-	}
+		 fthis.getHibernateTemplate().update(dm);
+	} 
 
 	public void delete(DepModel dm) {
 		this.getHibernateTemplate().delete(dm);
-	}
+	} fd
 
 	public List<DepModel> getAll(DepQueryModel dqm) {
 		//æŒ‰ç…§æ�¡ä»¶è¿›è¡ŒæŸ¥è¯¢
@@ -63,7 +63,7 @@ public class DepDaoImpl extends HibernateDaoSupport implements DepDao{
 		if(dqm.getTele()!=null && dqm.getTele().trim().length()>0){
 			dc.add(Restrictions.like("tele", "%"+dqm.getTele().trim()+"%"));
 		}
-		return this.getHibernateTemplate().findByCriteria(dc);
+		r eturn this.getHibernateTemplate().findByCriteria(dc);
 	}
 	public List<DepModel> getAll(DepQueryModel dqm, Integer pageNum,Integer pageCount) {
 		DetachedCriteria dc = DetachedCriteria.forClass(DepModel.class);
@@ -76,7 +76,7 @@ public class DepDaoImpl extends HibernateDaoSupport implements DepDao{
 		}
 		return this.getHibernateTemplate().findByCriteria(dc,(pageNum-1)*pageCount,pageCount);
 	}
-	
+	 d
 	public Integer getCount(DepQueryModel dqm) {
 		DetachedCriteria dc = DetachedCriteria.forClass(DepModel.class);
 		//select * form tbl_dep
@@ -85,7 +85,7 @@ public class DepDaoImpl extends HibernateDaoSupport implements DepDao{
 		dc.setProjection(Projections.rowCount());
 		if(dqm.getName()!=null && dqm.getName().trim().length()>0){
 			dc.add(Restrictions.like("name", "%"+dqm.getName().trim()+"%"));
-		}
+		} 
 		if(dqm.getTele()!=null && dqm.getTele().trim().length()>0){
 			dc.add(Restrictions.like("tele", "%"+dqm.getTele().trim()+"%"));
 		}
@@ -96,17 +96,17 @@ public class DepDaoImpl extends HibernateDaoSupport implements DepDao{
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml","applicationContext-dep.xml");
 		DepDao dao = (DepDao) ctx.getBean("depDao");
 		System.out.println(dao.getCount(new DepQueryModel()));
-	}
+	}df
 	public Integer getCount(DepQueryModel dqm) {
 		String hql = "select count(uuid) from DepModel where 1 = 1 ";
 		if(dqm.getName()!=null && dqm.getName().trim().length()>0){
 			hql += " and name like ? ";
-		}
+		}df
 		if(dqm.getTele()!=null && dqm.getTele().trim().length()>0){
 			hql += " and tele like ? ";
 		}
 		List<Long> count = this.getHibernateTemplate().find(hql,"%"+dqm.getName()+"%","%"+dqm.getTele()+"%");
 		return count.get(0).intValue();
-	}
+	}g
 }
 */
